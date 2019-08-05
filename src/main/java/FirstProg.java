@@ -6,6 +6,7 @@
 public class FirstProg {
 
     public static void main(String[] args) {
-        System.out.println("Hi world");
+       Point p1 = new Point(3,6);
+        System.out.println("Hi world "+p1);
     }
 }
