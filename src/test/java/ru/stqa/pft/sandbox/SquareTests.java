@@ -14,6 +14,7 @@ public class SquareTests {
     public void testArea(){
         Point p1 = new Point(3);
         Point p2 = new Point(2);
-        Assert.assertEquals(p1.distance(p2), 3.605551275463989);
+        double test = Math.sqrt(3 * 3 + 2 *  2);
+        Assert.assertEquals(p1.distance(p2), test);
     }
 }
